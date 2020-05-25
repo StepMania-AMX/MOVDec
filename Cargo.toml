@@ -1,0 +1,9 @@
+[package]
+name = "MOVDec"
+description = "Decrypts MOV files from Exceed to NXA."
+version = "1.1.0"
+authors = ["Aldo Fregoso <aldomx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+"libmov" = { git = "ssh://git@github.com/StepMania-AMX/libmov.git" }
